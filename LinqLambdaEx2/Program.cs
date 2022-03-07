@@ -78,7 +78,7 @@ namespace LinqLambdaEx2
 
             var groupColorFruitsLambda = fruits.GroupBy(fruit => fruit.Color);
 
-            //GetDetails(budgetFruitsLambda);
+            GetDetails(budgetFruitsLambda);
             //Console.WriteLine("Red Color Fruits are: " + countRedFruitLinq);
             //Console.WriteLine("Red Color Fruits are: " + countRedFruitsLambda);
 
